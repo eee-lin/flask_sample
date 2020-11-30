@@ -31,3 +31,18 @@ created virtual environment CPython3.7.6.final.0-64 in 1342ms
 ├── env
 └── app.py
 ```
+
+### DBの導入
+`source env/bin/activate`
+
+```
+(env) (base) Yilin:flask zhouyilin$ python3
+Python 3.7.6 (default, Jan  8 2020, 13:42:34) 
+[Clang 4.0.1 (tags/RELEASE_401/final)] :: Anaconda, Inc. on darwin
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from app import db
+/Users/zhouyilin/Documents/Conv/flask/env/lib/python3.7/site-packages/flask_sqlalchemy/__init__.py:834: FSADeprecationWarning: SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and will be disabled by default in the future.  Set it to True or False to suppress this warning.
+  'SQLALCHEMY_TRACK_MODIFICATIONS adds significant overhead and '
+>>> db.create_all()
+>>> quit()
+```
