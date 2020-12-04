@@ -65,3 +65,4 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 `pip install Flask`
 
+`pip install flask SQLAlchemy`
