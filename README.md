@@ -52,3 +52,11 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>> db.create_all()
 >>> quit()
 ```
+
+`python3`
+
+`from app import db`
+
+`db.create_all()`
+
+`quit()`
