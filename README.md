@@ -8,13 +8,15 @@
 
 `pip install virtualenv`
 
+`pip3 install virtualenv`
+
 ここでうまくできなかった場合はpipがインストールされていないかアップデートされていない可能性もある。
 
 `pip install -U pip`
 virtualenvまでいけたら、`vitrual env`
 
 ```
-(base) Yilin:flask zhouyilin$ virtualenv env
+(base) 〇〇:flask 〇〇$ virtualenv env
 created virtual environment CPython3.7.6.final.0-64 in 1342ms
   creator CPython3Posix(dest=/Users/zhouyilin/Documents/Conv/flask/env, clear=False, no_vcs_ignore=False, global=False)
   seeder FromAppData(download=False, pip=bundle, setuptools=bundle, wheel=bundle, via=copy, app_data_dir=/Users/zhouyilin/Library/Application Support/virtualenv)
