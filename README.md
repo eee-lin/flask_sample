@@ -60,3 +60,8 @@ Type "help", "copyright", "credits" or "license" for more information.
 `db.create_all()`
 
 `quit()`
+
+### インストールの仕方
+
+`pip install Flask`
+
