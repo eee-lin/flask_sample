@@ -15,7 +15,7 @@
 `pip install -U pip`
 virtualenvまでいけたら、
 
-`virtualenv env`
+`python3 -m venv venv`
 
 ```
 (base) 〇〇:flask 〇〇$ virtualenv env
