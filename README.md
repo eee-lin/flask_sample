@@ -28,7 +28,7 @@ created virtual environment CPython3.7.6.final.0-64 in 1342ms
 
 ### app.py作成
 
-  `virtualenv env`  
+  `virtualenv venv`  
   
   ```
   ├── templates
@@ -39,7 +39,7 @@ created virtual environment CPython3.7.6.final.0-64 in 1342ms
 ```
 
 ### DBの導入
-`source env/bin/activate`
+`source venv/bin/activate`
 
 ```
 (env) (base) Yilin:flask zhouyilin$ python3
